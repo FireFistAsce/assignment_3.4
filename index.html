@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Position</title>
+        <style>
+            *{
+                margin:0px;
+            }
+            .div1{
+                border:2px solid red;
+                width:600px;                   
+            }
+            .div2{
+                border:2px solid green;
+                width:800px;
+                background-color:#00e64c;
+            }
+            h2{
+                text-align: center;
+                border-bottom: 1px solid black;
+            }
+            .image{
+                position:absolute;
+                height:100px;
+            }      
+        </style>
+    </head>
+    
+    <body>
+        <div class='div1'>
+            <!--  An independent div  -->
+            <h2>This is div 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus est eros, euismod nec cursus in, congue sit amet erat. Sed auctor cursus tempor. Etiam dictum ipsum finibus, feugiat elit vitae, fringilla nisl. Quisque nec lectus eu nisl rhoncus consequat in sed tellus. Proin id arcu ipsum. Integer mattis dui vitae ante fermentum maximus. Etiam consequat malesuada porta. Morbi porta pulvinar neque, ut scelerisque nulla facilisis lacinia. Suspendisse bibendum tellus in libero faucibus, ut sollicitudin nulla viverra.</p>
+        </div>
+        
+        <!--  Overlapping div ( Image on text)  -->
+        <div>
+            <img class='image' src="acadgild.png">
+        </div>
+        
+        <div class='div2'>
+            <h2>This is div 2</h2>
+            <p>Nulla et tempor nisl. Mauris at viverra nunc. Mauris semper eu nulla vitae aliquet. Donec pellentesque elit a ex fringilla, vitae dictum turpis faucibus. Vivamus at laoreet ligula. Suspendisse vehicula gravida facilisis. Donec vehicula nibh magna, rutrum porta mi viverra eu. Phasellus id volutpat nunc, vel ultrices erat. Fusce finibus tortor non felis iaculis, ac maximus felis cursus. Ut eleifend pretium dui vulputate sodales. Sed dui lacus, consectetur ac egestas vitae, rhoncus eu sem. Quisque sed turpis dignissim, aliquet felis eget, aliquet leo. Quisque fringilla mauris sed aliquet aliquam. Maecenas lorem dui, facilisis a congue non, placerat rhoncus libero. Suspendisse volutpat, sem et ornare finibus, nibh turpis placerat felis, nec vestibulum ante erat ac felis.</p>
+        </div>
+    </body>
+</html>
